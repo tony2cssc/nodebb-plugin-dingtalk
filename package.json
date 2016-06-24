@@ -16,5 +16,8 @@
   "author": {
     "name": "badman200"
   },
+  "nbbpm": {
+    "compatibility": "^0.9.0 || ^1.x"
+  },
   "homepage": "https://github.com/tony2cssc/nodebb-plugins-dingtalk.git#readme"
 }
