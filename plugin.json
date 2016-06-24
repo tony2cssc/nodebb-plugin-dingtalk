@@ -1,0 +1,24 @@
+{
+  "id": "nodebb-plugin-dingtalk",
+  "name": "nodebb-plugin-dingtalk",
+  "description": "this plugin is made for fosun",
+  "url": "https://github.com/tony2cssc/nodebb-plugins-dingtalk.git",
+  "library": "./index.js",
+  "scripts": [
+  	"public/gototop.js"
+  ],
+  "hooks": [
+    {
+    	"hook": "static:app.load","method": "load"
+    },
+    {
+    	"hook": "action:notification.pushed", "method": "pushed"
+    },
+    {
+    	"hook": "action:topic.post", "method": "post"
+    },
+    {
+    	"hook": "action:topic.reply", "method": "reply"
+    }
+  ]
+}

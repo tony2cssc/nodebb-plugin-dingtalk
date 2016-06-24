@@ -1,0 +1,20 @@
+{
+  "name": "nodebb-plugin-dingtalk",
+  "version": "1.0.0",
+  "description": "this plugin is made for fosun",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tony2cssc/nodebb-plugins-dingtalk.git"
+  },
+  "keywords": [
+    "nodebb"
+  ],
+  "author": {
+    "name": "badman200"
+  },
+  "homepage": "https://github.com/tony2cssc/nodebb-plugins-dingtalk.git#readme"
+}
