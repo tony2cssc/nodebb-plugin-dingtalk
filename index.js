@@ -1,4 +1,4 @@
-(function (Plugin) {
+(function (Ding) {
     'use strict';
     
     var nodebb =require('./lib/nodebb'),
@@ -104,5 +104,4 @@
 	Ding.reply = function(post) {
 		DingPsuh.reply(post);
 	};
-    module.exports = Ding;
-}
+})(module.exports);

@@ -1,23 +1,25 @@
 {
   "name": "nodebb-plugin-dingtalk",
   "version": "1.0.0",
-  "description": "this plugin is made for fosun",
-  "main": "./index.js",
+  "description": "this is made for fosun",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tony2cssc/nodebb-plugins-dingtalk.git"
+    "url": "git+https://github.com/tony2cssc/nodebb-plugin-dingtalk.git"
   },
   "keywords": [
     "nodebb"
   ],
-  "author": {
-    "name": "badman200"
+  "author": "badman200",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tony2cssc/nodebb-plugin-dingtalk/issues"
   },
+  "homepage": "https://github.com/tony2cssc/nodebb-plugin-dingtalk#readme",
   "nbbpm": {
     "compatibility": "^0.9.0 || ^1.x"
-  },
-  "homepage": "https://github.com/tony2cssc/nodebb-plugins-dingtalk.git#readme"
+  }
 }

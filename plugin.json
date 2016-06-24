@@ -2,7 +2,7 @@
   "id": "nodebb-plugin-dingtalk",
   "name": "nodebb-plugin-dingtalk",
   "description": "this plugin is made for fosun",
-  "url": "https://github.com/tony2cssc/nodebb-plugins-dingtalk.git",
+  "url": "https://github.com/tony2cssc/nodebb-plugin-dingtalk.git",
   "library": "./index.js",
   "scripts": [
   	"public/gototop.js"
