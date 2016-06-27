@@ -19,6 +19,8 @@
     },
     {
     	"hook": "action:topic.reply", "method": "reply"
+    },{
+    	"hook": "filter:parse.post", "method": "image", "callbacked": true, "priority": 6
     }
   ]
 }

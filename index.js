@@ -104,4 +104,9 @@
 	Ding.reply = function(post) {
 		DingPsuh.reply(post);
 	};
+	//帖子文章过滤
+	Ding.image = function(postContent, callback) {
+		postContent.postData.content = postContent.postData.content.replace( /\<img src\=\"?(.*)\" alt\=\"?(.*)\" (.*)\/\>/g , '<a class="lightboxlink" href="$1" data-lightbox="$2"><img class="lightboximage" src="$1" alt="$2"></a>');
+	    callback(null, postContent);
+	}
 })(module.exports);
