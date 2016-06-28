@@ -9,7 +9,7 @@
   ],
   "hooks": [
     {
-    	"hook": "static:app.load","method": "load"
+    	"hook": "static:app.load","method": "rote"
     },
     {
     	"hook": "action:notification.pushed", "method": "pushed"
