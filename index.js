@@ -5,6 +5,7 @@
     	winston = nodebb.winston,
     	db = nodebb.db,
     	user = nodebb.user,
+    	notification = nodebb.notification,
     	DingPsuh=require('./lib/dingpush');
     	
     // 系统扩展路由
