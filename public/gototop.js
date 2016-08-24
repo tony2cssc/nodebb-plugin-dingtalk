@@ -156,7 +156,8 @@
 })(jQuery);
 $(function() {
     $.gotop({
-        'containerColor': -1
+        'containerColor': -1,
+        'containerRadius':'50%'
     });
     // $('#footer').gotop();
 });
